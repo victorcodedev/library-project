@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import BookDetails from "./pages/BookDetails/BookDetails";
 import Loans from "./pages/Loans/Loans";
 import Wishlist from "./pages/Wishlist/Wishlist";
+import Login from "./pages/Login/login"
 
 
 function AppRoutes() {
@@ -13,9 +14,10 @@ function AppRoutes() {
 
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Home />} />
-                    <Route path="book/:id" element={<BookDetails />} />
+                    <Route path="book/:workId" element={<BookDetails />} />
                     <Route path="loans" element={<Loans />} />
                     <Route path="wishlist" element={<Wishlist />} />
+                    <Route path="login" element={<Login />} />
                 </Route>
 
             </Routes>
