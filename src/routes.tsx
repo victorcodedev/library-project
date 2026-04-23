@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import BookDetails from "./pages/BookDetails/BookDetails";
 import Loans from "./pages/Loans/Loans";
 import Wishlist from "./pages/Wishlist/Wishlist";
-import Login from "./pages/Login/login"
+import Login from "./pages/Login/Login"
 
 
 function AppRoutes() {
